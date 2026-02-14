@@ -2,8 +2,6 @@
 
 A modern web-based tool to generate Excel release checklists for multiple CORE cases using a predefined Excel template.
 
-This tool replaces long and complex command-line usage with a clean, easy-to-use browser UI.
-
 ---
 
 ## ✨ What This Tool Does
@@ -13,10 +11,6 @@ This tool replaces long and complex command-line usage with a clean, easy-to-use
 - Creates one Excel file per CORE case
 - Copies formatting and content from the template
 - Saves all files into a chosen output folder
-
-No CMD arguments.  
-No confusion.  
-Just click and generate.
 
 ---
 
@@ -143,8 +137,6 @@ Excel Processing	openpyxl
 Frontend	HTML, CSS, JavaScript
 UI	Modern Web UI
 Server	Localhost
-❗ Common Issues & Fixes
-UI not loading / no styling
 
 Make sure files are inside the web/ folder:
 
@@ -217,13 +209,6 @@ Windows EXE version
 
 Cloud hosting
 
-👨‍💻 Summary
-
-This tool allows anyone to generate release checklists without using the command line.
-
-No CMD  
-No confusion  
-Just click and generate.
 
 📞 Support
 
