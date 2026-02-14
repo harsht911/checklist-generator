@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Release Checklist Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Release Checklist Generator</h1>
+    <p class="subtitle">Generate Excel checklists for multiple CORE cases</p>
+
+    <div class="card">
+      <label>Template Excel File</label>
+      <input type="file" id="templateFile" accept=".xlsx" />
+      <p class="hint">Select the Excel template file (e.g. CORE-47.xlsx)</p>
+    </div>
+
+    <div class="card">
+      <label>CORE Case Numbers</label>
+      <textarea id="cases" placeholder="CORE-175, CORE-469, CORE-492"></textarea>
+      <p class="hint">Separate by commas or new lines</p>
+    </div>
+
+    <div class="card">
+      <label>Output Folder Name</label>
+      <input type="text" id="output" placeholder="CORE_2.42" />
+    </div>
+
+    <button onclick="generate()">Generate Checklist</button>
+
+    <div id="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
